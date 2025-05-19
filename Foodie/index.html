@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODIE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin left: 20px;
+            margin right: 20px;
+            padding: 10px;
+            background-color: #f4f4f4;
+            background-color: #333;
+        }
+        #header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #header h1 {
+            color: rgb(213, 179, 39);
+            font-size: 2.5em;
+            margin: 0;
+        }
+        #header li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 15px;
+        }
+        #header a {
+            text-decoration: none;
+            color: rgb(19, 18, 18);
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #header button {
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 20px;
+        }
+        #home {
+            margin-top: 100px;
+        }
+        #home home-content h4,p{
+            text-align: left;
+            
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>FOODIE</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button><a href="#booknow">Book now</a></button>
+            </ul>
+        </nav>
+    </header>
+    <div id="home">
+        <div style="position: relative;  display: inline-block;">
+            <img src="about-background.png" alt="Foodie Background" style="height: 800px; display: block;">
+            <img src="about-background-image.png" alt="Foodie Background" style="height: 500px; position: absolute; top: 50%; left: 140%; transform: translate(-50%, -50%);">
+        </div>
+        <div id="home-content" style="position: absolute; top: 60%; left: 61%; transform: translate(-50%, -50%);">
+            <h4 style="color: rgb(213, 179, 39);">HOME</h4>
+            <h1 style="color:white;font: size 4em;">KEC</h1>
+            <p style="color: rgb(175, 168, 168);"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat fugit iusto amet non neque quas omnis doloremque, tempora vel quasi labore numquam veniam adipisci illum cumque reiciendis dolore temporibus quibusdam.</b></p>
+            <p style="color: rgb(175, 168, 168);"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat fugit iusto amet non neque quas omnis doloremque, tempora vel quasi labore numquam veniam adipisci illum cumque reiciendis dolore temporibus quibusdam.</b></p>
+        </div>
+    </div>
+</body>
+</html>
